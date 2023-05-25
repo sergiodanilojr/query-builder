@@ -1,0 +1,6 @@
+version: '3'
+services:
+  php:
+    image: sergiodanilojr/php-dev
+    volumes:
+      - .:/var/www

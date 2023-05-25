@@ -1,0 +1,19 @@
+{
+  "name": "sergiodanilojr/query-builder-tdd",
+  "autoload": {
+    "psr-4": {
+      "QB\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\QB\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.1.3"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
